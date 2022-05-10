@@ -1,0 +1,403 @@
+*
+{
+    margin: 0;
+}
+@font-face 
+{
+    font-family: "Montserrat";
+    src: "fonts/Montserrat-Regular.ttf";
+    font-family: "Roboto";
+    src: "fonts/Roboto-Regular.ttf";
+}
+
+body
+{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.menu
+{
+    display: flex;
+}
+.menu li a
+{
+    color: white;
+    text-decoration: none;
+}
+.logoAndMenu
+{
+    display:flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_img img
+{
+    width: 250px;
+    height:100px;
+}
+header{
+    width: 1624px;
+    background-image: url("img/homePage/headerSized3.png");
+    background-repeat:no-repeat;
+    height: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+h1
+{
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 0.1cm;
+    margin-bottom: 40px;
+    line-height: 60px;
+}
+.eStomatologyInfo span
+{
+    color:white;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+.some_Imgs
+{
+    margin-top: 80px;
+}
+.eStomatology
+{
+    width: 400px;
+    height: 400px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.eStomatologyInfo a
+{
+     width: 240px;   
+    display: inline-block;
+    padding: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.uslugi
+{
+    width: 100%;
+    height: 1400px;
+    margin-top: 90px;
+}
+.esteticImg1
+{
+    width: 250px;
+    height: 333px;
+    
+}
+
+
+.esteticImg1 img
+{
+    width: 250px;
+}
+
+.esteticImg2 img{
+    width: 250px;
+}
+
+.esteticImg1 p
+{
+    font-size: 32px;
+    color: #000;
+}
+.esteticImg2 p
+{
+    color: #000;
+    font-size: 32px;
+}
+
+.esteticUslugi
+{
+    width: 715px;
+    height: 700px;
+}
+
+.esteticUslugi p{
+    font-size: 24px;
+    color: #fff;
+}
+
+.eStomatologySquare
+{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 62.3%;
+
+}
+
+.eStomatologySquare a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+.reconUslugi
+{
+    width: 800px;
+    height: 710px;
+    text-align: end;
+    position: relative;
+}
+
+.reconUslugi p
+{
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+}
+
+.rStomSquare
+{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    top: 85%;
+    left: 62.4%;
+}
+
+.rStomSquare a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+.funcUslugi img{
+    height: 850px;
+} 
+
+.funcUslugi
+{
+    height: 900px;
+    position: relative;
+}
+
+.funcUslugi p
+{
+    font-size: 24px;
+    color: #fff;
+}
+
+h2
+{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.fStomSquare
+{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 50.6%;
+}
+
+.fStomSquare a{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    margin-left: 0px;
+}
+
+.ourDctrs
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dctr1, .dctr2, .dctr3
+{
+    display: flex;
+    align-items: center;
+}
+
+.dctr1 p
+{
+    line-height: 30px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.dctr2 p
+{
+    line-height: 30px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.dctr3 p
+{
+    line-height: 30px;
+    margin-left: 0px;
+    font-weight: 600;
+}
+
+.dctr1 img
+{
+    width: 160px;
+}
+
+.dctr1 .nameSpan
+{
+    color:gray
+}
+
+.dctr2 .nameSpan{
+    color: gray;
+}
+
+.dctr3 .nameSpan
+{
+    color:gray;
+}
+
+h3
+{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.dctrs{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1400px;
+}
+
+.circle
+{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.arrowzxc
+{
+    margin: auto;
+}
+
+.doctorFullImage
+{
+    margin-left: 30px;
+}
+h4
+{
+    color: #fff;
+    margin-bottom: 100px;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.aboutClinic
+{
+    margin-top: 100px;
+}
+.aboutClinicTxt p
+{
+    color:#fff;
+}
+.aboutClinicTxt
+{
+    position: absolute;
+    width: 1100px;
+    margin-top: 114px;
+    line-height: 27px;
+}
+
+.aboutClinicImg
+{
+    margin-top: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 96px;
+}
+
+.contacts
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactsMain
+{
+    width: 1400px;
+    margin: auto;
+}
+
+.firstBlockUslugi
+{
+    display: flex;
+    flex-direction: column;
+    width: 845px;
+}
+
+.esteticUslugi
+{
+    width: 800px;
+    height: 700px;
+    text-align: end;
+    position: relative;
+}
+
+.uslugi
+{
+    display: flex;
+}
+
+.esteticText
+{
+    position: absolute;
+    left: 36%;
+    top: 14%;
+    text-align: left;
+}
+
+.rStomText
+{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+}
+
+
+.fStomText
+{
+    position: absolute;
+    top: 11%;
+    left: 10%;
+}
+
+.funcUslugi h2
+{
+    text-align: end;
+}
